@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c034cfbf0c251b4b90c075168e8fb7b, type: 3}
+  m_Name: HealthPotion
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 7488e0f5e98cfd1418e852ba2cf7096c, type: 3}
+  itemName: Health Potion
+  itemType: 0
+  amount: 0
+  effects:
+  - {fileID: 11400000, guid: 9a800d672700add49ae925c70d2638e0, type: 2}

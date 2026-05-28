@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &536144180372165656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 664242503551525379}
+  - component: {fileID: 2716919903716682235}
+  - component: {fileID: 7769449734746357974}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &664242503551525379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536144180372165656}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.54362, y: -3.51, z: -1.03103}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2716919903716682235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536144180372165656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b832b6d6643858045a1d960b78a7cea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxSource: {fileID: 0}
+  sounds:
+  - name: SwordSlash
+    clip: {fileID: 8300000, guid: ca44b6986a60b9748b4f0629c141b5ce, type: 3}
+    volume: 1
+  - name: HitMarker
+    clip: {fileID: 8300000, guid: e567d4549e60f430aad885cfc6b45e60, type: 3}
+    volume: 1
+  - name: Dodge
+    clip: {fileID: 8300000, guid: 1f67896fb265c43ed83235bd98cc469a, type: 3}
+    volume: 1
+  - name: SwordUpgrade
+    clip: {fileID: 8300000, guid: a0b5ab04f18d537489f0a347309eab7b, type: 3}
+    volume: 1
+  - name: ArmorUpgrade
+    clip: {fileID: 8300000, guid: 1d24d9d63ff57a040894305420ddc62e, type: 3}
+    volume: 1
+  - name: OpenChest
+    clip: {fileID: 8300000, guid: 3d140ad577f4d9b4fbfbfa6e9d05f0c6, type: 3}
+    volume: 1
+  - name: Pop
+    clip: {fileID: 8300000, guid: 04c7b7fb91d0f2745876b94feab0dbac, type: 3}
+    volume: 1
+  - name: ThunderStrike
+    clip: {fileID: 8300000, guid: 8db8147f1fa0f4348864dbeffd2d462b, type: 3}
+    volume: 0.25
+  - name: FireStrike
+    clip: {fileID: 8300000, guid: d079d57d744b1584887a7ffac9e25c6e, type: 3}
+    volume: 1
+  - name: Drumbs
+    clip: {fileID: 8300000, guid: 7aeb55dae1db18f4d84833c2f44b531b, type: 3}
+    volume: 1
+  - name: Cheering
+    clip: {fileID: 8300000, guid: eaccc240f422cbb4481aed4097ab9c69, type: 3}
+    volume: 1
+  - name: MainMusic
+    clip: {fileID: 8300000, guid: 18f65c62144f16e4f833277d8b9cd651, type: 3}
+    volume: 0.5
+  - name: ForestAmbient
+    clip: {fileID: 8300000, guid: a6161e67dc6887d4fb4ce0a9345dd356, type: 3}
+    volume: 0.25
+  - name: Melody
+    clip: {fileID: 8300000, guid: 5b275e979316f3f42a55fcdf13904edd, type: 3}
+    volume: 1
+  - name: GoldPickUp
+    clip: {fileID: 8300000, guid: 561ca721c1ddd495d9dca7f4fcd49244, type: 3}
+    volume: 1
+  - name: Heal
+    clip: {fileID: 8300000, guid: 5f6028244f53d40718a33253a580463e, type: 3}
+    volume: 1
+  - name: Death
+    clip: {fileID: 8300000, guid: c52fb42b2c528ea41a49fc06eae22cbb, type: 3}
+    volume: 1
+--- !u!81 &7769449734746357974
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536144180372165656}
+  m_Enabled: 1
